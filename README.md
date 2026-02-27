@@ -1,37 +1,54 @@
-## 🙋‍♂️ ¡Hola!
+# 🏥 HealthData Architecture: Gestión Clínica en PostgreSQL
 
-
-<p align="center">
-  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_ML0kykqSnXdoXfnBcP3Djv5CYR4zCRawmZVJiZjicALstQFQcxdVdRzdf3kt4JdTSh3EkAQVc0EeDDc0hLOU4v7FcVSSKBFF5rGAbXiArSTNWQKKVgGuz85mSbhyNOjcCX5WnnlEA2U/s1600/gif+bienvenidos.gif" alt="Bienvenidos" width="600"/>
-</p>
-
-
-Soy **Wily Duvan Villamil Rey**, estudiante de **Ingeniería en Sistemas** y apasionado por la administración de bases de datos. Actualmente me desempeño como **Administrador de Bases de Datos Junior**, y me complace presentarte uno de mis proyectos académicos más recientes.
-
-Este trabajo consiste en el diseño e implementación de una **base de datos relacional en PostgreSQL** orientada a la gestión de información clínica. Para complementar el análisis y facilitar la toma de decisiones estratégicas, utilicé una **conexión con Microsoft Excel** como herramienta de visualización, lo que permitió observar patrones clave y respaldar decisiones acordes al modelo de negocio.
-
-Este repositorio es una muestra de cómo la combinación entre modelado relacional, automatización de consultas y visualización clara puede aportar valor en escenarios reales del sector salud.
+> **Sistema Integral de Información Clínica:** Diseño de una base de datos relacional para la gestión hospitalaria, integrando capacidades de Reporting Estratégico mediante conectividad ODBC/Excel.
 
 ---
-## 🛠️ Tecnologías Utilizadas
+### 🏆 Logros de Ingeniería en este Proyecto
 
-- **PostgreSQL**: para modelado relacional, sentencias SQL y gestión eficiente de datos.
-- **Microsoft Excel**: para visualización de datos y generación de reportes estratégicos.
-- **SQL**: consultas, creación de tablas, relaciones y automatización de extracción de datos.
+* **Arquitectura de Datos Robusta:** Diseño de un modelo relacional en **3NF (Tercera Forma Normal)** que garantiza la integridad referencial y elimina la redundancia de datos sensibles.
+  
+* **Optimización de Capacidad:** Implementación de restricciones (`Constraints`) de nivel empresarial para asegurar que el 100% de las citas médicas cumplan con las reglas de negocio (estados, horarios y especialistas).
+  
+* **Integración BI (Excel/ODBC):** Desarrollo de una capa de abstracción mediante **Vistas (Views)** que permite la conexión directa con herramientas de visualización para la toma de decisiones estratégicas.
+  
+* **Gobernanza de Datos:** Configuración de roles y permisos específicos para asegurar el cumplimiento de la privacidad de los datos clínicos (Principio de Menor Privilegio).
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🎯 Alcance del Proyecto
+Implementación de un ecosistema de datos para el sector salud, enfocado en la centralización de registros clínicos, trazabilidad de pacientes y optimización de la agenda médica. El proyecto demuestra la capacidad de transformar datos transaccionales en **dashboards operativos**.
 
-El principal objetivo de esta base de datos es **gestionar de forma eficiente y estructurada la información clínica** de una institución de salud. El sistema está diseñado para:
+---
 
-- **Centralizar los datos** de pacientes, citas médicas, tratamientos y personal clínico en un entorno relacional confiable.
-- **Optimizar la consulta, actualización y análisis** de la información mediante sentencias SQL bien estructuradas.
-- **Garantizar la integridad referencial** y la consistencia de los datos mediante el uso de llaves foráneas y restricciones.
-- **Proveer una base sólida** para la generación de reportes estratégicos mediante la conexión con herramientas de visualización como Microsoft Excel.
-- **Apoyar la toma de decisiones clínicas y administrativas**, facilitando el acceso a información clave del negocio.
+## 🛠️ Stack Tecnológico
+* **Database Engine:** PostgreSQL (Modelado Relacional & SQL Avanzado).
+* **Reporting & BI:** Microsoft Excel (Power Query / Conectividad ODBC).
+* **Lógica de Datos:** SQL (Constraints, Views para reporteo e Integridad Referencial).
 
-Este enfoque permite aplicar los conocimientos adquiridos en bases de datos, modelado relacional y análisis de datos, en un contexto realista y con impacto directo en la gestión del sector salud.
+---
 
+## 📂 Contenido Técnico & Arquitectura
+
+### 1. Modelado de Datos (Clinical Schema)
+Estructura normalizada (3NF) para garantizar la consistencia en:
+* **Gestión de Pacientes:** Historias clínicas y datos demográficos.
+* **Control Operativo:** Agendamiento de citas y disponibilidad de personal médico.
+* **Trazabilidad:** Tratamientos, diagnósticos y evolución clínica.
+
+### 2. Integridad y Reglas de Negocio
+* Implementación de **Foreign Keys** y **Check Constraints** para asegurar la calidad del dato clínico.
+* **Views Estratégicas:** Consultas pre-compiladas para simplificar el acceso a KPI's hospitalarios.
+
+### 3. Visualización & Analytics (Excel Integration)
+* Conexión directa mediante **ODBC** para la extracción de datos en tiempo real.
+* Generación de reportes dinámicos sobre ocupación de citas y efectividad de tratamientos, facilitando la toma de decisiones administrativas.
+
+---
+
+### 👤 Autor
+**Wily Duvan Villamil Rey** *Senior Database Administrator | Data Engineer*
+
+* **LinkedIn:** [linkedin.com/in/wily-rey-dba](https://www.linkedin.com/in/wily-rey-dba)
+* **Email:** [willyvillamil861@gmail.com](mailto:willyvillamil861@gmail.com)
 ---
 ## 🧩 Consultas y Scripts Destacados
 
