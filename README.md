@@ -28,20 +28,12 @@ Implementación de un ecosistema de datos para el sector salud, enfocado en la c
 
 ## 📂 Contenido Técnico & Arquitectura
 
-### 1. Modelado de Datos (Clinical Schema)
-Estructura normalizada (3NF) para garantizar la consistencia en:
-* **Gestión de Pacientes:** Historias clínicas y datos demográficos.
-* **Control Operativo:** Agendamiento de citas y disponibilidad de personal médico.
-* **Trazabilidad:** Tratamientos, diagnósticos y evolución clínica.
-
-### 2. Integridad y Reglas de Negocio
-* Implementación de **Foreign Keys** y **Check Constraints** para asegurar la calidad del dato clínico.
-* **Views Estratégicas:** Consultas pre-compiladas para simplificar el acceso a KPI's hospitalarios.
-
-### 3. Visualización & Analytics (Excel Integration)
-* Conexión directa mediante **ODBC** para la extracción de datos en tiempo real.
-* Generación de reportes dinámicos sobre ocupación de citas y efectividad de tratamientos, facilitando la toma de decisiones administrativas.
-
+### 🗄️ Database Layer (SQL Scripts)
+* **[01_db_schema_setup.sql](./SQL/01_db_schema_setup.sql):** Inicialización de esquemas y entorno.
+* **[02_patients_table_setup.sql](./SQL/02_patients_table_setup.sql):** Registro normalizado de pacientes.
+* **[03_consultas_médicas_config.sql](./SQL/03_consultas_médicas_config.sql):** Lógica transaccional de citas.
+* **[04_database_audit_summary.sql](./SQL/04_database_audit_summary.sql):** Consultas analíticas para auditoría de volumen.
+* **[05_entity_relationships_constraints.sql](./SQL/05_entity_relationships_constraints.sql):** Integridad referencial avanzada.
 ---
 
 ### 👤 Autor
