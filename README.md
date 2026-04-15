@@ -34,13 +34,7 @@ Implementación de un ecosistema de datos para el sector salud, enfocado en la c
 * **[03_consultas_médicas_config.sql](./SQL/03_consultas_médicas_config.sql):** Lógica transaccional de citas.
 * **[04_database_audit_summary.sql](./SQL/04_database_audit_summary.sql):** Consultas analíticas para auditoría de volumen.
 * **[05_entity_relationships_constraints.sql](./SQL/05_entity_relationships_constraints.sql):** Integridad referencial avanzada.
----
-
-### 👤 Autor
-**Wily Duvan Villamil Rey** *Senior Database Administrator | Data Engineer*
-
-* **LinkedIn:** [linkedin.com/in/wily-rey-dba](https://www.linkedin.com/in/wily-rey-dba)
-* **Email:** [willyvillamil861@gmail.com](mailto:willyvillamil861@gmail.com)
+  
 ---
 
 ## 🧠 Aprendizajes Destacados
@@ -72,4 +66,9 @@ Implementación de un ecosistema de datos para el sector salud, enfocado en la c
 
 >⚠️ **Este proyecto es académico. Los datos utilizados fueron generados con fines ilustrativos. No representan información real de pacientes.**
 
+---
+### 👤 Autor
+**Wily Duvan Villamil Rey** *Senior Database Administrator | Data Engineer*
 
+* **LinkedIn:** [linkedin.com/in/wily-rey-dba](https://www.linkedin.com/in/wily-rey-dba)
+* **Email:** [willyvillamil861@gmail.com](mailto:willyvillamil861@gmail.com)
